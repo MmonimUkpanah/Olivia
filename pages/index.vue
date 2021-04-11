@@ -5,7 +5,7 @@
                 <font-awesome-icon class="icon" :icon="['fas', 'sliders-h']" @click="showNav" />
                 <div class="nav2">
                 <nuxt-link class="link" to="/"><h2>HOME</h2></nuxt-link>
-                <nuxt-link class="link" to="about"><h2>ABOUT COMPANY</h2></nuxt-link>
+                <nuxt-link class="link" to="about"><h2>ABOUT OUR COMPANY</h2></nuxt-link>
                 <nuxt-link class="link" to="team"><h2>OUR TEAM</h2></nuxt-link>
                 <nuxt-link class="link" to="production"><h2>PRODUCTION</h2></nuxt-link>
                 <nuxt-link class="link" to="products"><h2>PRODUCTS</h2></nuxt-link>
@@ -19,33 +19,41 @@
           <font-awesome-icon class="icon2" :icon="['fas', 'sliders-h']" @click="showNav" />
         </div>
         <div class="index1">
-          <h2>Olivia</h2>
+          <h2>Sunny</h2>
         </div>
       </div>
       <div class="index2">
-        <h2>Home</h2>
+        <h2>HOME</h2>
       </div>
       
      
     </div>
     <div class="pro">
       <div class="pro0">
-        <h2>Olivia</h2>
+        <h2>Sunny</h2>
       </div>
       
       <div class="pro1">
-        <div class="pro2">
-          <h2>THINGS ARE EASY WITH <span class="pro4">OLIVIA</span> </h2>
+        <div class="pro2"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
+          <h2>THINGS ARE EASY WITH <span class="pro4">SUNNY</span> </h2>
         </div>
-        <div class="pro3">
-          <h2><span class="pro4">EASY</span>  TO COPERATE WITH</h2> 
+        <div class="pro3"
+        data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+             data-aos-delay="150" >
+          <h2><span class="pro4">EASY</span>  TO COOPERATE WITH</h2> 
         </div>
       </div>
       <div class="pro1">
-        <div class="pro2">
+        <div class="pro2"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
           <h2> <span class="pro4">EASY</span> TO CREATE PREMIUM PRODUCTS</h2>
         </div>
-        <div class="pro3">
+        <div class="pro3"
+        data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+             data-aos-delay="150">
           <h2><span class="pro4">EASY</span >  TO BE SUCCESSFUL</h2> 
         </div>
       </div>
@@ -53,9 +61,11 @@
     <div class="cele">
       <div class="cele1">
       </div>
-      <div class="cele2">
-        <p>Olivia is the leading brand of the Ukrainian sunflower seeds processing company 
-          PAT Sumskyi Zavod Prodovolchykh Tovariv (a private joint-stock company)</p>
+      <div class="cele2"
+      data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+             data-aos-delay="150">
+        <p>Sunny is the leading brand of the Ukrainian sunflower seeds processing company 
+          Sunny Seed Oil (a private joint-stock company)</p>
           <p>We produce</p>
           <ul>
             <li>refined sunflower oil winterized, deodorized;</li>
@@ -69,35 +79,15 @@
       </div>
     </div>
     <div  class="bo">
-      <div class="bo1"> 
-        <p>It is very easy to manufacture products with Olivia under a private label using 
+      <div class="bo1"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150"> 
+        <p>It is very easy to manufacture products with Sunny under a private label using 
           the company’s formulas or alter them according to the client’s needs. The packaging 
           with a client’s label could be used for the product.</p>
-          <div class="bo5">
-            <h2>CONTACT US</h2>
-          </div>
+          
         
-        <form action="">
-          <div class="bo3">
-            <p>NAME</p>
-            <input type="text">
-          </div>
-          <div class="bo3">
-            <p>EMAIL</p>
-            <input type="text">
-          </div>
-          <div class="bo3">
-            <p>SUBJECT</p>
-            <input type="text">
-          </div >
-          <div class="bo3">
-            <p>TEXT</p>
-            <textarea name="" id="" rows="5"></textarea>
-          </div>
-          <div class="bo4">
-            <button>SEND</button>
-          </div>
-        </form>
+        <img src="/img/ni.svg" alt="">
       </div>
       <div class="bo2">
         
@@ -107,11 +97,13 @@
       <div class="duct1">
         <h2>PRODUCTION</h2>
         <p>Modern oil extraction plant with a high level of automation and 
-          energy-efficient production technologies allow Olivia to achieve the following 
+          energy-efficient production technologies allow Sunny to achieve the following 
           indicators:</p>
       </div>
       <div class="duct2">
-        <div class="duct3">
+        <div class="duct3"
+        data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
           <div class="duct31">
             <img src="/img/15.svg" alt="">
           </div>
@@ -119,7 +111,9 @@
             <img src="/img/18.svg" alt="">
           </div>
         </div>
-        <div class="duct4">
+        <div class="duct4"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
           <div class="duct41">
             <img src="/img/28.svg" alt="">
           </div>
@@ -130,7 +124,9 @@
             <img src="/img/55.svg" alt="">
           </div>
         </div>
-        <div class="duct3">
+        <div class="duct3"
+        data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
           <div class="duct31">
             <img src="/img/60.svg" alt="">
           </div>
@@ -147,6 +143,48 @@
           of cooperation.</p>
       </div>
       
+    </div>
+    <div class="du">
+      <div class="du1"
+      data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
+        <div class="du2">
+          <img src="/img/refined-oil.svg" alt="">
+          <p>Refined Oil</p>
+        </div>
+        <div class="du2">
+          <img src="/img/unrefined-oil.svg" alt="">
+          <p>Unrefined Oil</p>
+        </div>
+        <div class="du2">
+          <img src="/img/meal.svg" alt="">
+          <p>Sunflower Meal</p>
+        </div>
+        <div class="du2">
+          <img src="/img/fuel.svg" alt="">
+          <p>Biofuel Sunflower Husk Pellets</p>
+        </div>
+      </div>
+      <div class="du1"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
+        <div class="du2">
+          <img src="/img/mayo.svg" alt="">
+          <p>Mayonnaise</p>
+        </div>
+        <div class="du2">
+          <img src="/img/mustard.svg" alt="">
+          <p>Mustard</p>
+        </div>
+        <div class="du2">
+          <img src="/img/tomato-paste.svg" alt="">
+          <p>Tomato Paste Ketchup</p>
+        </div>
+        <div class="du2">
+          <img src="/img/up.svg" alt="">
+          <p>Vinegar</p>
+        </div>
+      </div>
     </div>
   
     <div class="cer">
@@ -342,7 +380,7 @@ export default {
   }
   
   .cele1{
-    background: url("/img/ar.jpg") center center/cover ;
+    background: url("/img/001.jpg") center center/cover ;
   }
   .cele2{
     padding: 7rem 2rem;
@@ -390,11 +428,19 @@ export default {
   font-size: 40px;
 
 }
+.pro2{
+  background: url("/img/drop.svg") no-repeat;
+  background-size: 200px;
+  background-position: right;
+}
 
 .pro3{
   margin-top: 7rem;
-
-  
+background: url("/img/drop.svg") no-repeat;
+  background-size: 200px;
+  background-position: right;
+padding-top: 2rem;
+padding-bottom: 2rem;  
                      
 
 }
@@ -409,6 +455,10 @@ export default {
 }
 .bo1{
   padding: 5rem 3rem;
+}
+.bo1 img{
+  width:100%;
+  margin-top: 2rem;
 }
 .bo1 p{
   font-size:20px ;
@@ -585,7 +635,7 @@ export default {
   text-align: center;
 }
 .ad h2{
-  font-size: 50px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 1rem;
 }
@@ -605,6 +655,27 @@ export default {
 }
 .ad2 img{
   width: 80%;
+}
+.du{
+  background: #ffbe3c;
+  padding: 5rem 15%;
+  text-align: center;
+}
+.du1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+
+}
+.du2{
+  
+  margin-bottom: 2rem;
+}
+.du2 p{
+  color: white;
+  font-size: 20px;
+  margin-top: 1rem;
+  text-transform: uppercase;
 }
 
 
@@ -663,7 +734,7 @@ export default {
     text-align: right;
     margin-top: 2rem;
     margin-right: 10px;
-    color: white;
+    color: #ffbe3c;
   }
   .index1 h2{
     font-size: 50px;
@@ -672,7 +743,7 @@ export default {
     text-align: center;
   }
   .index2 h2{
-    color: white;
+    color: #ffbe3c;
     font-size: 100px;
     padding-top: 15rem;
   }
@@ -685,7 +756,7 @@ export default {
   }
   
   .cele1{
-    background: url("/img/ar.jpg") center center/cover ;
+    background: url("/img/001.jpg") center center/cover ;
     height: 50vh;
   }
   
@@ -733,18 +804,21 @@ export default {
 }
 .pro1 h2{
   font-size: 40px;
-  font-weight: bold;
 }
 .pro2{
   padding-right: 0;
   margin-top: 1rem;
   text-align: center;
+  background-size: 200px;
+  background-position: center;
   
 }
 .pro3{
   padding-left: 0;
   margin-top: 2.5rem;
-  text-align: center;           
+  text-align: center;   
+  background-size: 200px;
+  background-position: center;        
 
 }
 .pro4{
@@ -758,6 +832,11 @@ export default {
 }
 .bo1{
   padding: 1rem 0px;
+  text-align: center;
+}
+.bo1 img{
+  width:100%;
+  margin-top: 2rem;
 }
 .bo1 p{
   font-size:20px ;
@@ -896,6 +975,27 @@ export default {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.du{
+  background: #ffbe3c;
+  padding: 3rem 10px;
+  text-align: center;
+}
+.du1{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 2rem;
+
+}
+.du2{
+  
+  margin-bottom: 2rem;
+}
+.du2 p{
+  color: white;
+  font-size: 20px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
 
   }
 
@@ -942,6 +1042,14 @@ export default {
   width: 100%;
   margin-top: -1rem;
 }
+.nav{
+        width: 40%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #ffbe3c;
+    }
   }
 
   @media(min-width: 769px) and (max-width:1200px){

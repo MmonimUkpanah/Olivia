@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="foot1">
             <div class="foot2">
-                <h2>Olivia</h2>
+                <h2>Sunny</h2>
             </div>
             <div class="foot3">
                 <font-awesome-icon class="ico" :icon="['fab', 'facebook']"/>
@@ -12,16 +12,13 @@
         </div>
         <div class="goal">
             <div class="goal1">
-                <p><span class="goal4">ABOUT COMPANY</span> </p>
-                <p>PRODUCTION</p>
-                <p>CONTACT US</p>
+                <nuxt-link to="about" class="link"><p><span class="goal4">ABOUT COMPANY</span> </p></nuxt-link>
+                <nuxt-link to="production" class="link"><p>PRODUCTION</p></nuxt-link>
+            
             </div>
             <div class="goal2">
-                <p><span class="goal4">PRODUCTS</span> </p>
-                <p>UNREFINED SUN FLOWER OIL</p>
-                <p>REFINED SUN FLOWER OIL</p>
-                <p>SUNFLOWER MEAL</p>
-                <p>MUSTARD</p>
+                <nuxt-link to="products" class="link"><p><span class="goal4">PRODUCTS</span> </p></nuxt-link>
+                
             </div>
             <div class="goal3">
                 <p><span class="goal4">HEAD OFFICE</span> </p>
@@ -87,6 +84,9 @@
     }
     .goal4{
         font-weight: bold;
+    }
+    .link{
+        color: white;
     }
 
 

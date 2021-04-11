@@ -19,11 +19,11 @@
           <font-awesome-icon class="icon2" :icon="['fas', 'sliders-h']" @click="showNav" />
         </div>
         <div class="index1">
-          <h2>Olivia</h2>
+          <h2>Sunny</h2>
         </div>
       </div>
       <div class="index2">
-          <h1>Olivia</h1>
+          
           
         <h2>PRODUCTION</h2>
       </div>
@@ -32,7 +32,7 @@
     </div>
     <div class="pl">
         <div class="pl1">
-            <p>The modern oil extraction plant Olivia is situated in Bezdryk, Sumy Region, Ukraine.
+            <p>The modern oil extraction plant Sunny is situated in Svyatoshynska Street 28 A, Vyshneve, Ukraine.
 
 The plant is fitted with highly effective equipment and all the technological processes comply with international standards as well as environmental laws.</p>
         </div>
@@ -49,36 +49,48 @@ The plant is fitted with highly effective equipment and all the technological pr
             <h2>MAIN STAGES OF SEEDS PROCESSING</h2>
             <p class="number rounded-circle">1</p>
         </div>
-        <div class="stage2">
+        <div class="stage2"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
             <h3>INCOMING CONTROL</h3>
             <p>The laboratory selects seeds of the highest quality.</p>
             <hr width="1" size="500">
         </div>
-        <div class="stage2">
+        <div class="stage2"
+        data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
             <p class="number rounded-circle">2</p>
             <h3>SEED CLEANING</h3>
             <p>Elevator equipment allows us to separate seeds from various impurities. Fully clean seeds are stored and further processed.</p>
             <hr width="1" size="500">
         </div>
-        <div class="stage2">
+        <div class="stage2"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
             <p class="number rounded-circle">3</p>
             <h3>INCOMING CONTROL</h3>
             <p>The laboratory selects seeds of the highest quality.</p>
             <hr width="1" size="500">
         </div>
-        <div class="stage2">
+        <div class="stage2"
+        data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
             <p class="number rounded-circle">4</p>
             <h3>ROASTING PROCESS</h3>
             <p>The seeds are roasted at 100-110° С using customized roasting machines. Specific roasting technology allows the most effective squeezing of the pressed oil and obtaining sunflower oil cake of high quality.</p>
             <hr width="1" size="500">
         </div>
-        <div class="stage2">
+        <div class="stage2"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
             <p class="number rounded-circle">5</p>
             <h3>PRESSING</h3>
             <p>Virgin sunflower oil and sunflower oil cake, used for further extraction are produced using modern pressing machines.</p>
             <hr width="1" size="500">
         </div>
-        <div class="stage2">
+        <div class="stage2"
+        data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
             <p class="number rounded-circle">6</p>
             <h3>SUNFLOWER OIL CAKE EXTRACTION</h3>
             <p>Sunflower meal, which is one of the most valuable fodder components is produced at this stage.</p>
@@ -93,7 +105,9 @@ The plant is fitted with highly effective equipment and all the technological pr
         <div class="qua1">
 
         </div>
-        <div class="qua2">
+        <div class="qua2"
+        data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
             <div class="qua4">
                 <p><span class="qua3">RAW MATERIAL TESTING</span></p>
                 <p>We use sunflower seeds with organoleptic, physico-chemical and safety indices that meet DSTU 
@@ -215,7 +229,11 @@ The quality control stages include raw material, intermediate and finished produ
       background: #ffbe3c;
     }
   .index{
-    background: transparent url(/img/ba.svg) center center/cover;
+    background: linear-gradient(
+            to right,
+            rgba(0, 4, 23, 0.58),
+            rgba(0, 4, 23, 0.58)
+        ), url(/img/ba.svg) center center/cover;
     height: 100vh;
     
   }
@@ -230,24 +248,20 @@ The quality control stages include raw material, intermediate and finished produ
     text-align: right;
     margin-top: 2rem;
     margin-right: 7rem;
-    color: white;
+    color: #ffbe3c;
   }
   .index1 h2{
-    font-size: 50px;
+    font-size: 70px;
   }
   .index2{
     text-align: center;
   }
-  .index2 h1{
-      color: white;
-    font-size: 100px;
-   padding-top: 5rem;
-  }
+  
   
   .index2 h2{
-    color: white;
-    font-size: 50px;
-    padding-top: 20rem;
+    color: #ffbe3c;
+    font-size: 100px;
+    padding-top: 15rem;
   }
     .pl{
         margin-top: 5rem;
@@ -266,7 +280,7 @@ The quality control stages include raw material, intermediate and finished produ
         font-size: 20px;
     }
     .pl2 {
-        background: url("/img/ph.jpe") center center/cover;
+        background: url("/img/zavod.jpg") center center/cover;
     }
     .pl3{
         text-align: center;
@@ -428,7 +442,11 @@ The quality control stages include raw material, intermediate and finished produ
       background: #ffbe3c;
     }
   .index{
-    background: url(/img/ba.svg) center center/cover;
+    background:linear-gradient(
+            to right,
+            rgba(0, 4, 23, 0.58),
+            rgba(0, 4, 23, 0.58)
+        ), url(/img/ba.svg) center center/cover;
     height: 100vh;
     
   }
@@ -440,7 +458,7 @@ The quality control stages include raw material, intermediate and finished produ
     text-align: right;
     margin-top: 2rem;
     margin-right: 10px;
-    color: white;
+    color: #ffbe3c;
   }
   .index1 h2{
     font-size: 50px;
@@ -449,7 +467,7 @@ The quality control stages include raw material, intermediate and finished produ
     text-align: center;
   }
   .index2 h2{
-    color: white;
+    color: #ffbe3c;
     font-size: 40px;
     padding-top: 15rem;
   }
@@ -469,7 +487,7 @@ The quality control stages include raw material, intermediate and finished produ
         font-size: 20px;
     }
     .pl2 {
-        background: url("/img/ph.jpe") center center/cover;
+        background: url("/img/zavod.jpg") center center/cover;
         height: 50vh;
     }
     .pl3{
@@ -648,6 +666,14 @@ The quality control stages include raw material, intermediate and finished produ
     }
     .qua5 h2{
         font-size: 50px;
+    }
+    .nav{
+        width: 40%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #ffbe3c;
     }
   }
   @media(min-width:769px) and (max-width:1200px){

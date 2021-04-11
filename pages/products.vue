@@ -19,7 +19,7 @@
           <font-awesome-icon class="icon2" :icon="['fas', 'sliders-h']" @click="showNav" />
         </div>
         <div class="index1">
-          <h2>Olivia</h2>
+          <h2>Sunny</h2>
         </div>
       </div>
       <div class="index2">
@@ -28,11 +28,53 @@
       
      
     </div>
+    <div class="du"
+    data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
+      <div class="du1">
+        <div class="du2">
+          <img src="/img/refined-oil.svg" alt="">
+          <p>Refined Oil</p>
+        </div>
+        <div class="du2">
+          <img src="/img/unrefined-oil.svg" alt="">
+          <p>Unrefined Oil</p>
+        </div>
+        <div class="du2">
+          <img src="/img/meal.svg" alt="">
+          <p>Sunflower Meal</p>
+        </div>
+        <div class="du2">
+          <img src="/img/fuel.svg" alt="">
+          <p>Biofuel Sunflower Husk Pellets</p>
+        </div>
+      </div>
+      <div class="du1"
+      data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-quad"
+        data-aos-delay="150">
+        <div class="du2">
+          <img src="/img/mayo.svg" alt="">
+          <p>Mayonnaise</p>
+        </div>
+        <div class="du2">
+          <img src="/img/mustard.svg" alt="">
+          <p>Mustard</p>
+        </div>
+        <div class="du2">
+          <img src="/img/tomato-paste.svg" alt="">
+          <p>Tomato Paste Ketchup</p>
+        </div>
+        <div class="du2">
+          <img src="/img/up.svg" alt="">
+          <p>Vinegar</p>
+        </div>
+      </div>
+    </div>
     <div class="lab">
         <div class="lab1">
             <h2>TM SUNNY SEED OIL</h2>
-            <p>Sunny seed oil is a well-known Ukrainian sunflower seeds processing company that produces a large range of products under its own brand, Olivia.</p>
-            <img src="/img/pri.jpg" alt="">
+            <p>Sunny seed oil is a well-known Ukrainian sunflower seeds processing company that produces a large range of products under its own brand, Sunny.</p>
+            <img src="/img/priv.jpg" alt="">
         </div>
         <div class="lab2">
             <h2>PRIVATE LABEL</h2>
@@ -120,7 +162,7 @@
     text-align: right;
     margin-top: 2rem;
     margin-right: 7rem;
-    color: white;
+    color: #ffbe3c;
   }
   .index1 h2{
     font-size: 50px;
@@ -129,14 +171,14 @@
     text-align: center;
   }
   .index2 h2{
-    color: white;
+    color: #ffbe3c;
     font-size: 80px;
     padding-top: 15rem;
   }
   .lab{
       margin-top: 3rem;
-      margin-left: 15%;
-      margin-right: 15%;
+      margin-left: 10%;
+      margin-right: 10%;
       display: grid;
       grid-column-gap: 2rem;
       grid-template-columns: 1fr 1fr;
@@ -165,6 +207,27 @@
   .lab2 p{
       font-size: 20px;
   }
+   .du{
+  background: #ffbe3c;
+  padding: 5rem 15%;
+  text-align: center;
+}
+.du1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+
+}
+.du2{
+  
+  margin-bottom: 2rem;
+}
+.du2 p{
+  color: white;
+  font-size: 20px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
 
 
 
@@ -223,7 +286,7 @@
     text-align: right;
     margin-top: 2rem;
     margin-right: 10px;
-    color: white;
+    color: #ffbe3c;
   }
   .index1 h2{
     font-size: 50px;
@@ -232,7 +295,7 @@
     text-align: center;
   }
   .index2 h2{
-    color: white;
+    color: #ffbe3c;
     font-size: 50px;
     padding-top: 15rem;
   }
@@ -269,7 +332,41 @@
   .lab img{
       width: 100%;
   }
+ 
+.du{
+  background: #ffbe3c;
+  padding: 3rem 10px;
+  text-align: center;
+}
+.du1{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-gap: 2rem;
 
+}
+.du2{
+  
+  margin-bottom: 2rem;
+}
+.du2 p{
+  color: white;
+  font-size: 20px;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+
+  }
+
+  @media(min-width:568px) and (max-width: 768px){
+    .nav{
+        width: 40%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #ffbe3c;
+    }
   }
 </style>
 

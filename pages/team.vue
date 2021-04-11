@@ -19,7 +19,7 @@
           <font-awesome-icon class="icon2" :icon="['fas', 'sliders-h']" @click="showNav" />
         </div>
         <div class="index1">
-          <h2>Olivia</h2>
+          <h2>Sunny</h2>
         </div>
       </div>
      
@@ -28,7 +28,7 @@
     </div>
     <div class="et">
         <div class="et1">
-            <h2>OLIVIA TEAM</h2>
+            <h2>SUNNY TEAM</h2>
             <p>Our company's human resources policies are primarily aimed at personal 
                 and professional development and are based upon the principles of openness, 
                 development, and growth.</p>
@@ -38,7 +38,7 @@
         </div>
         <div class="et2">
             <div class="et3">
-                <img src="/img/iv.jpg" alt="">
+                <img src="/img/151.jpg" alt="">
                 <div class="et5">
                     <p><span class="et4">Pablo Yemets</span></p>
                     <p>Director</p>
@@ -46,14 +46,14 @@
                 
             </div>
             <div class="et3">
-                <img src="/img/ja.jpg" alt="">
+                <img src="/img/overko.jpg" alt="">
                 <div class="et5">
                     <p><span class="et4">Alina Overko</span></p>
                     <p>Export Manager</p>
                 </div>
             </div>
             <div class="et3">
-                <img src="/img/lu.jpg" alt="">
+                <img src="/img/rishkin.jpg" alt="">
                 <div class="et5">
                     <p><span class="et4">Anatolii Ryshkin</span></p>
                     <p>Export Manager</p>
@@ -62,14 +62,14 @@
         </div>
         <div class="et6">
             <div>
-                <img src="/img/mi.jpg" alt="">
+                <img src="/img/kopteva.jpg" alt="">
                 <div class="et5">
                     <p><span class="et4">Nataliya Kopteva</span></p>
                     <p> Manager</p>
                 </div>
             </div>
             <div>
-                <img src="/img/pe.jpg" alt="">
+                <img src="/img/an.jpg" alt="">
                 <div class="et5">
                     <p><span class="et4">Alexey Andriyash</span></p>
                     <p>Head of Retail Department</p>
@@ -170,7 +170,7 @@
       text-align: center;
   }
   .et1 h2{
-      font-size: 50px;
+      font-size: 70px;
       color:#ffbe3c ;
   }
   .et1 p{
@@ -248,11 +248,7 @@
       border-radius: 50%;
       background: #ffbe3c;
     }
-  .index{
-    background: url(/img/ju.jpg) center center/cover;
-    height: 100vh;
-    
-  }
+  
   .index0{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -264,7 +260,7 @@
     color: white;
   }
   .index1 h2{
-    font-size: 50px;
+    font-size: 70px;
   }
   .index2{
     text-align: center;
@@ -281,7 +277,7 @@
       text-align: center;
   }
   .et1 h2{
-      font-size: 50px;
+      font-size: 60px;
       color:#ffbe3c ;
   }
   .et1 p{
@@ -323,6 +319,14 @@
   }
 
   @media(min-width:568px) and (max-width:768px){
+      .nav{
+        width: 40%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #ffbe3c;
+    }
       .et{
       margin-top: 5rem;
       margin-left: 10%;
